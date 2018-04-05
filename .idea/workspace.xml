@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
       <file leaf-file-name="StudentHome.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentHome.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -24,21 +24,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classroom1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classroom1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classroom1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="323">
+              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Alex.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alex.html">
+      <file leaf-file-name="Alex_teacher.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Alex_teacher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="570">
+              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="survey.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/survey.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,8 +67,8 @@
       <file leaf-file-name="survey.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -125,6 +135,7 @@
         <option value="$PROJECT_DIR$/classroom1.css" />
         <option value="$PROJECT_DIR$/studenthome.css" />
         <option value="$PROJECT_DIR$/classroom1.html" />
+        <option value="$PROJECT_DIR$/Alex_teacher.html" />
       </list>
     </option>
   </component>
@@ -135,8 +146,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="536" />
-    <option name="y" value="7" />
+    <option name="x" value="687" />
+    <option name="y" value="5" />
     <option name="width" value="1162" />
     <option name="height" value="1047" />
   </component>
@@ -203,15 +214,15 @@
       <option name="presentableId" value="Default" />
       <updated>1522876160389</updated>
       <workItem from="1522876161686" duration="1273000" />
-      <workItem from="1522942981355" duration="6393000" />
+      <workItem from="1522942981355" duration="6809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7666000" />
+    <option name="totallyTimeSpent" value="8082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="536" y="7" width="1162" height="1047" extended-state="0" />
+    <frame x="687" y="5" width="1162" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32111692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -283,14 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/survey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chatImage.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -346,8 +349,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classroom1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="323">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alex_teacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding />
         </state>
       </provider>
