@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Opening page</title>
+    <title>Student Homepage</title>
 
     <!-- Sets initial viewport load and disables zooming  -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -16,18 +16,20 @@
 
     <!-- Include the compiled Ratchet JS -->
     <script src="ratchet.js"></script>
+
   </head>
 
   <body>
-    <div class="content">
-        <div class="container1">
-            <h2 class="text">Enter your information:</h2>
+        <header class="bar bar-nav">
+            <a class="icon icon-left-nav pull-left" href="practice2.html"></a>
+            <h1 class="title">Camera</h1>
+        </header>
+        <header class="bar bar-standard bar-footer">
+            <img src="img/rec.png" class="record">
+        </header>
+
+        <div class="content">
+            <div class="loader"></div>
         </div>
-        <div class="container">
-            <form>
-                <input type="text" placeholder="Classroom code">
-                <!--<input type="text" placeholder="Classroom code">-->
-                <a href="modal.html"><button class="btn btn-primary btn-block">Get started!</button></a>
-            </form>
-        </div>
-  </body>
+    </body>
+    </html>
