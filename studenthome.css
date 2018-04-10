@@ -120,3 +120,7 @@ input[type=submit]:active {
   display: table;
   clear: both;
 }
+
+.practice{
+  height: 800px;
+}
