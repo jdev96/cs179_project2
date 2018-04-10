@@ -1,29 +1,9 @@
 # cs179_project2
 
-index.html is our main home page for the student interface
+openingpage.html is our starting page for new users
 
 each subsequent page is labeled according to its function
 
-To view each page on github pages, follow each of the following links:
+our prototype has been built with Ratchet, a CSS framework that requires emulated touch events. in order enable functionality for our prototype in a browser (Chrome), you must inspect the page and simulate a mobile device using Device Mode.
 
-https://jdev96.github.io/cs179_project2/login.html
-
-https://jdev96.github.io/cs179_project2/survey.html
-
-https://jdev96.github.io/cs179_project2/index.html
-
-https://jdev96.github.io/cs179_project2/Alex.html
-
-https://jdev96.github.io/cs179_project2/practice.html
-
-https://jdev96.github.io/cs179_project2/chat.html
-
-https://jdev96.github.io/cs179_project2/TeacherHome.html
-
-https://jdev96.github.io/cs179_project2/classroom1.html
-
-https://jdev96.github.io/cs179_project2/Alex_teacher.html
-
-
-
-
+Click on the following link to access the landing page for our prototype: https://jdev96.github.io/cs179_project2/openingpage.html
