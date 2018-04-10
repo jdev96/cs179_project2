@@ -505,6 +505,10 @@ input[type="button"] {
 
 .bar-footer {
   bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
 .bar-footer-secondary {
@@ -649,6 +653,7 @@ input[type="button"] {
 .bar input[type="search"] {
   height: 29px;
   margin: 6px 0;
+  width: 300px;
 }
 
 .bar .segmented-control {
@@ -1453,6 +1458,20 @@ select {
   padding: 3%;
 }
 
+.photobutton{
+  max-width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0px 5px;
+}
+
+.sendbutton {
+  max-width: 20px;
+  height: 20px;
+  float: right;
+  margin: 0px 5px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -1476,4 +1495,12 @@ select {
 .info {
   float: right;
   max-width: 2.5%;
+}
+
+.newmessagediv {
+  margin: 20% 10%;
+  text-align: center;
+  background-color: rgb(226, 223, 223);
+  padding: 25px;
+  border-radius: 10px;
 }
