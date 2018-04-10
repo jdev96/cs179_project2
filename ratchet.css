@@ -524,6 +524,9 @@ input[type="button"] {
 
 .bar-nav {
   top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title {
@@ -1468,4 +1471,9 @@ select {
 
 .buttondiv {
   padding: 5%;
+}
+
+.info {
+  float: right;
+  max-width: 2.5%;
 }
