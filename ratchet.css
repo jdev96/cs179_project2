@@ -1471,6 +1471,12 @@ select {
   margin: 0px 5px;
 }
 
+.plusbutton{
+  max-width: 15px;
+  height: 15px;
+  float: left;
+  margin-top: 3px;
+}
 .sendbutton {
   max-width: 20px;
   height: 20px;
@@ -1545,4 +1551,24 @@ select {
 .record {
   max-width: 25px;
   align-self: center;
+}
+
+.checkbox{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.checkboxleft {
+  float: left;
+}
+
+.checkboxright {
+  float: right;
+}
+
+.labeltext {
+  font-size: 14px;
+  color: #777;
+  margin: 5px;
 }
