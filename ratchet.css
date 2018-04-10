@@ -1261,7 +1261,6 @@ select {
 .navigate-right:after,
 .push-right:after {
   right: 15px;
-  content: '\e826';
 }
 
 @font-face {
@@ -1454,7 +1453,13 @@ select {
 .container {
   display: flex;
   flex-direction: column;
-  padding: 25% 10%;
+  padding: 10%;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  padding: 25% 10%
 }
 
 .text {
