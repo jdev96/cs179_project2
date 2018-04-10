@@ -794,6 +794,12 @@ input[type="button"] {
   margin-left: 10px;
 }
 
+.table-view .img-object {
+  margin-right: 10px;
+  width: 30%;
+  height: auto;
+}
+
 .table-view-cell > .btn,
 .table-view-cell > .badge,
 .table-view-cell > .toggle,
