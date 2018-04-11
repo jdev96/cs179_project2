@@ -941,7 +941,7 @@
     toggle    = false;
   });
 
-  document.getElementById("studentbutton").onclick = function () {
-    location.href = "newindex.html";
-  }
+  // document.getElementById("studentbutton").onclick = function () {
+  //   location.href = "newindex.html";
+  // }
 }());

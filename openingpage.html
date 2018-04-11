@@ -16,20 +16,32 @@
 
     <!-- Include the compiled Ratchet JS -->
     <script src="ratchet.js"></script>
+
+
+
   </head>
+
   <body>
     <div class="content">
       <div class="container1">
         <h2 class="text">Are you a...</h2>
         <div class="container1">
+
           <div class="buttondiv" id="studentbutton">
-          <a href="classroomcode.html"><button class="btn btn-primary btn-block">Student</button></a>
+            <a href="classroomcode.html">
+              <button class="btn btn-primary btn-block" id="student" value="student" onclick="save()">Student</button></a>
           </div>
+
           <div class="buttondiv">
-            <a href="teacherloginfor.html"><button class="btn btn-positive btn-block">Teacher</button>
+            <a href="teacherloginfor.html"><button class="btn btn-positive btn-block" id="teacher" value="teacher" onclick="save()">Teacher</button></a>
           </div>
+
         </div>
       </div>
     </div>
+
+
+
   </body>
 </html>
+
