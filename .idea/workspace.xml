@@ -17,8 +17,8 @@
       <file leaf-file-name="openingpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openingpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -34,18 +34,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ratchet.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ratchet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17803">
-              <caret line="945" column="6" lean-forward="false" selection-start-line="945" selection-start-column="6" selection-end-line="945" selection-end-column="6" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Zoey_teacher.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zoey_teacher.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,16 +43,6 @@
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initialmessages.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/initialmessages.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="49" column="51" lean-forward="false" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -89,31 +67,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="initialstudenthome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialstudenthome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="newpractice.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newpractice.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="72" />
+            <state relative-caret-position="374">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="camera.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="camera.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/camera.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newindex.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newindex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="531">
+              <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -137,6 +135,7 @@
       <find>media-object</find>
       <find>need</find>
       <find>ashley</find>
+      <find>review feed</find>
       <find>record</find>
     </findStrings>
   </component>
@@ -167,8 +166,11 @@
         <option value="$PROJECT_DIR$/openingpage.html" />
         <option value="$PROJECT_DIR$/Zoey_teacher.html" />
         <option value="$PROJECT_DIR$/js/homepage.js" />
-        <option value="$PROJECT_DIR$/newpractice.html" />
         <option value="$PROJECT_DIR$/initialmessages.html" />
+        <option value="$PROJECT_DIR$/newpractice.html" />
+        <option value="$PROJECT_DIR$/chat.html" />
+        <option value="$PROJECT_DIR$/initialstudenthome.html" />
+        <option value="$PROJECT_DIR$/camera.html" />
       </list>
     </option>
   </component>
@@ -179,9 +181,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="807" />
+    <option name="x" value="866" />
     <option name="y" value="39" />
-    <option name="width" value="1092" />
+    <option name="width" value="1033" />
     <option name="height" value="977" />
   </component>
   <component name="ProjectView">
@@ -256,18 +258,18 @@
       <workItem from="1523416924810" duration="2835000" />
       <workItem from="1523478317095" duration="2792000" />
       <workItem from="1523492402996" duration="228000" />
-      <workItem from="1523503844551" duration="635000" />
+      <workItem from="1523503844551" duration="1787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26279000" />
+    <option name="totallyTimeSpent" value="27431000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="807" y="39" width="1092" height="977" extended-state="0" />
+    <frame x="866" y="39" width="1033" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18587361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19665684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.048442908" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -374,13 +376,6 @@
     <entry file="file://$PROJECT_DIR$/classroom1.css" />
     <entry file="file://$PROJECT_DIR$/survey.css" />
     <entry file="file://$PROJECT_DIR$/StudentHome.html" />
-    <entry file="file://$PROJECT_DIR$/practice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studenthome.css" />
     <entry file="file://$PROJECT_DIR$/classroom1.html" />
     <entry file="file://$PROJECT_DIR$/teacherHome.css" />
@@ -408,13 +403,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Alex.html" />
     <entry file="file://$PROJECT_DIR$/Alex_teacher.html" />
-    <entry file="file://$PROJECT_DIR$/chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3534">
-          <caret line="186" column="38" lean-forward="false" selection-start-line="186" selection-start-column="38" selection-end-line="186" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Class1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -448,14 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/initialstudenthome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -476,14 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openingpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -500,14 +472,6 @@
             <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/camera.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,18 +499,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newpractice.html">
+    <entry file="file://$PROJECT_DIR$/newindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="72" />
+        <state relative-caret-position="531">
+          <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newindex.html">
+    <entry file="file://$PROJECT_DIR$/practice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="532">
+          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newpractice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openingpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialstudenthome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
           <folding />
         </state>
       </provider>
