@@ -47,7 +47,15 @@
 
     <div class="content">
         <ul class="table-view">
-            <li class="table-view-cell">Justin D.<p>Thanks!</p></li>
-        </ul>
+            <li class="table-view-cell contact">Ashley</li>
+        </ul>        
     </div>
+
+    <script>
+        [].map.call(document.querySelectorAll('.contact'), elm => {
+            elm.addEventListener('click', () => {
+                location.href = 'messages.html'
+            })
+        })
+    </script>
   </body>

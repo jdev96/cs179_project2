@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Messages</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet.css" rel="stylesheet">
+    <style>
+      .name {
+        font-size: 1em;
+      }
+      .row {
+        position: relative;
+        min-height: 70px;
+      }
+      .avatar {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .row .content {
+        box-sizing: border-box;
+        padding-left: 90px;
+      }
+    </style>
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>    
+  </head>
+
+  <body>
+    <header class="bar bar-nav">
+        <h1 class="title">Messages</h1>
+    </header>
+    <header class="bar bar-standard bar-header-secondary">
+        <form>
+            <span class="icon icon-search pull-left"></span>
+            <input type="search" placeholder="Search messages">
+            <a class="icon icon-compose pull-right" href="#"></a>
+        </form>
+    </header>
+    <header class="bar bar-tab">
+        <a class="tab-item" href="initialmessages.html">
+            <img src="img/comments.png" class="icon">
+            <span class="tab-label">Messages</span>
+        </a>
+        <a class="tab-item" href="newindex.html">
+            <img src="img/home.png" class="icon">
+            <span class="tab-label">Home</span>
+        </a>          
+        <a class="tab-item" href="#">
+            <img src="img/gear.png" class="icon">
+            <span class="tab-label">Settings</span>
+        </a>
+    </header>
+
+    <div class="content">
+      <ul class="table-view" id="table">
+      </ul>        
+      <div class="right-section-bottom">
+        <form id="message">
+          <!--<div class="upload-btn">
+              <button class="btn"><i class="fa fa-photo"></i></button>
+              <input type="file" name="myfile" />
+          </div>-->
+          <input type="text" name="" placeholder="type here...">
+          <button class="btn-send"><i class="fa fa-send"></i></button>
+        </form>
+      </div>
+    </div>    
+    <script type="text/javascript">
+      var messages = []
+      function render() {
+        var table = document.querySelector('#table')
+        table.innerHTML = ''
+        messages.map(({from, msg}) => {          
+          var wrapper = document.createElement('div')
+          wrapper.className = 'row'
+          var content = document.createElement('div')
+          content.className = 'content'
+          var img = new Image()
+          img.className = 'avatar'
+          img.src = 'chatImage.png'
+          var header = document.createElement('h2')
+          header.className = 'name'
+          header.innerText = from
+          var span = document.createElement('span')
+          span.innerText = msg          
+          content.appendChild(header)
+          content.appendChild(span)
+          wrapper.appendChild(content)
+          wrapper.appendChild(img)
+          table.appendChild(wrapper)
+        })
+      }
+      var messageForm = document.querySelector('#message')
+      messageForm.addEventListener('submit', evt => {
+        evt.preventDefault()
+        var input = messageForm.querySelector('input')
+        messages.push({msg: input.value, from: 'Justin'})
+        messages.push({msg: 'Speak to me', from: 'Ashley'})
+        input.value = ''
+        render()        
+      })
+      render()
+    </script>
+  </body>
