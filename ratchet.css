@@ -513,6 +513,7 @@ input[type="button"] {
 
 .bar-footer-secondary {
   bottom: 44px;
+  height: 60px;
 }
 
 .bar-footer-secondary-tab {

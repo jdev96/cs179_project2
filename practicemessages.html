@@ -16,38 +16,22 @@
 
     <!-- Include the compiled Ratchet JS -->
     <script src="ratchet.js"></script>
-
-    <style>
-    #container {
-        background-color: #666;
-    }
-    #videoElement {
-    width: 375px;
-    height: 500px;
-    }
-    </style>
-</head>
-
   </head>
 
   <body>
         <header class="bar bar-nav">
-            <a class="icon icon-left-nav pull-left" href="newpractice.html"></a>
-            <h1 class="title">Camera</h1>
+            <a class="icon icon-left-nav pull-left" href="newindex.html"></a>
+            <h1 class="title">Justin D.</h1>
         </header>
-        <header class="bar bar-standard bar-footer">
-        </header>
-        <header class="bar bar-standard bar-footer-secondary">
-            <form id="recordform">
-            <input type="submit" class="btn btn-positive" value="Start Recording" onclick="changeHtml()" id="record">
+        <div class="bar bar-standard bar-footer">
+            <img src="img/photo-camera.png" class="photobutton">
+            <form>
+                <input type="search" placeholder="Type message">
             </form>
-        </header>
-
-        <div class="content" id="container">
-            <video autoplay="true" id="videoElement">
-            </video>
+            <img src="img/send-button.png" class="sendbutton">
         </div>
-    <script>
+
+<script>
     var video = document.querySelector("#videoElement");
  
     navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
@@ -62,15 +46,9 @@
  
     function videoError(e) {
     // do something
-        console.error('error', e);
+        console.error('error', e)
     }
-
-    window.onload= function changeHtml() {
-        var recordbutton=document.getElementById("record");
-        recordbutton.value="Finish and Send";
-        recordbutton.className="btn btn-negative";
-        document.getElementById("recordform").action="practicemessages.html";
-    }
+ 
     </script>
 </body>
 </html>
