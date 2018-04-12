@@ -506,8 +506,8 @@ input[type="button"] {
 .bar-footer {
   bottom: 0;
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-around;
+  flex-direction: row; 
   align-items: center;
 }
 
@@ -1572,4 +1572,39 @@ select {
   font-size: 14px;
   color: #777;
   margin: 5px;
+}
+
+#record {
+  margin-top: 8px;
+}
+
+#messages {
+  display:flex;
+  flex-direction: column-reverse;
+}
+
+.message {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: flex-end;
+  width: 375px;
+}
+.yourmessage {
+  border-radius: 10px;
+  background-color: #3498db;
+  margin: 10px;
+}
+
+.yourtextmessage {
+  color: white;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.yourimage {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  float: right;
+  align-self: flex-end;
 }

@@ -31,23 +31,18 @@
             <img src="img/send-button.png" class="sendbutton">
         </div>
 
+        <div class="content" id="messages">
+            <div class="message">
+                <img src="img/zoey.png" class="yourimage">
+                <div class="yourmessage">
+                    <div class="yourtextmessage">
+                        This is my practice video! Let me know what you think. <br>
+                        <img src="img/video-player.png">
+                    </div>
+                </div>
+            </div>
+
 <script>
-    var video = document.querySelector("#videoElement");
- 
-    navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
- 
-    if (navigator.getUserMedia) {       
-    navigator.getUserMedia({video: true}, handleVideo, videoError);
-    }
- 
-    function handleVideo(stream) {
-    video.src = window.URL.createObjectURL(stream);
-    }
- 
-    function videoError(e) {
-    // do something
-        console.error('error', e)
-    }
  
     </script>
 </body>
