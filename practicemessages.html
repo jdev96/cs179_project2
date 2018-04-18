@@ -25,9 +25,17 @@
         </header>
         <div class="bar bar-standard bar-footer">
             <img src="img/photo-camera.png" class="photobutton">
-            <form>
-                <input type="search" placeholder="Type message">
-            </form>
+
+                <!-- <input type="search" placeholder="Type message"> -->
+                <form id="message">
+                        <!--<div class="upload-btn">
+                            <button class="btn"><i class="fa fa-photo"></i></button>
+                            <input type="file" name="myfile" />
+                        </div>-->
+                        <input type="text" name="" placeholder="type here...">
+                        <button class="btn-send"><i class="fa fa-send"></i></button>
+                      </form>
+
             <img src="img/send-button.png" class="sendbutton">
         </div>
 
@@ -42,8 +50,36 @@
                 </div>
             </div>
 
-<script>
- 
+ <script type="text/javascript">
+      var messages = []
+      function render() {
+        messages.map(({from, msg}) => {          
+          var content = document.getElementById("messages")
+          var message = document.createElement('div')
+          message.className = 'message'
+          var img = new Image()
+          img.className = 'yourimage'
+          img.src = 'img/zoey.png'
+          var messagediv = document.createElement("div")
+          messagediv.className="yourmessage"
+          var text = document.createElement('div')
+          text.innerText = msg 
+          text.className="yourtextmessage"         
+          messagediv.appendChild(text)
+          message.appendChild(img)
+          message.appendChild(messagediv)
+          content.appendChild(message)
+        })
+      }
+      var messageForm = document.querySelector('#message')
+      messageForm.addEventListener('submit', evt => {
+        evt.preventDefault()
+        var input = messageForm.querySelector('input')
+        messages.push({msg: input.value, from: 'Justin'})
+        input.value = ''
+        render()        
+      })
+      render()
     </script>
 </body>
 </html>
