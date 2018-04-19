@@ -22,11 +22,11 @@
 
 <!-- Make sure all your bars are the first things in your <body> -->
 <header class="bar bar-tab">
-    <a class="tab-item" href="chat.html">
+    <a class="tab-item" href="#">
         <img src="img/comments.png" class="icon">
         <span class="tab-label">Messages</span>
     </a>
-    <a class="tab-item active" href="teacherhome.html">
+    <a class="tab-item" href="teacherhome.html">
         <img src="img/home.png" class="icon">
         <span class="tab-label">Home</span>
     </a>
@@ -37,21 +37,27 @@
 </header>
 
 <header class="bar bar-nav">
-    <h1 class="title">Home</h1>
+    <a class="icon icon-left-nav pull-left" href="teacherhome.html"></a>
+    <h1 class="title">Add Classroom</h1>
 </header>
 
 
 <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
 <!--<div class="content">-->
-<div  class="content">
-    <form>
-        <input type="text" placeholder="Classroom Name">
-        <input type="search" placeholder="Add Student Email">
+<div class="content">
+    <div class="container">
+        <div class="text">
+            <p>Add a new classroom!</p>
+            <p>Just enter your classroom name and the classroom code. Any student who logs in with the classroom code will be automatically added to your class.</p>
+            <br>
+        </div>
+        <form>
+        <input type="text" placeholder="Classroom name">
+        <input type="text" placeholder="Classroom code">
 
-        <input type="search" placeholder="Add Student Email">
-        <span class="icon icon-plus"></span>
         <a class="navigate-right" href="teacherhomenew.html"><button class="btn btn-positive btn-block" >Add Classroom</button>
     </form>
+    </div>
 
 </div>
 
