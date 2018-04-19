@@ -30,6 +30,14 @@
         box-sizing: border-box;
         padding-left: 90px;
       }
+      .right-section-bottom{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 15%;
+      }
+        
+      }
     </style>
 
     <!-- Include the compiled Ratchet JS -->
@@ -71,7 +79,7 @@
               <button class="btn"><i class="fa fa-photo"></i></button>
               <input type="file" name="myfile" />
           </div>-->
-          <input type="text" name="" placeholder="type here...">
+          <input type="text" name="" placeholder="Type a message...">
           <button class="btn-send"><i class="fa fa-send"></i></button>
         </form>
       </div>
@@ -105,8 +113,8 @@
       messageForm.addEventListener('submit', evt => {
         evt.preventDefault()
         var input = messageForm.querySelector('input')
-        messages.push({msg: input.value, from: 'Justin'})
-        messages.push({msg: 'Speak to me', from: 'Ashley'})
+        messages.push({msg: input.value, from: 'You'})
+        messages.push({msg: 'Speak to me', from: 'Justin'})
         input.value = ''
         render()        
       })
