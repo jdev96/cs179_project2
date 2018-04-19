@@ -1,4 +1,3 @@
-
 function save(){
     var pacing = document.getElementById('pacing');
     var enunciation = document.getElementById('enunciation');

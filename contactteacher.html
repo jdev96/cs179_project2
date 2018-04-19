@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Add Classroom</title>
+    <title>Contact Teacher</title>
 
     <!-- Sets initial viewport load and disables zooming  -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -22,23 +22,23 @@
 
 <!-- Make sure all your bars are the first things in your <body> -->
 <header class="bar bar-tab">
-    <a class="tab-item" href="#">
+    <a class="tab-item" href="chat.html">
         <img src="img/comments.png" class="icon">
         <span class="tab-label">Messages</span>
     </a>
-    <a class="tab-item" href="teacherhome.html">
+    <a class="tab-item" href="newindex.html">
         <img src="img/home.png" class="icon">
         <span class="tab-label">Home</span>
     </a>
-    <a class="tab-item" href="teachersettings.html">
+    <a class="tab-item" href="setting.html">
         <img src="img/gear.png" class="icon">
         <span class="tab-label">Settings</span>
     </a>
 </header>
 
 <header class="bar bar-nav">
-    <a class="icon icon-left-nav pull-left" href="teacherhome.html"></a>
-    <h1 class="title">Add Classroom</h1>
+    <a class="icon icon-left-nav pull-left" href="newindex.html"></a>
+    <h1 class="title">Contact Teacher</h1>
 </header>
 
 
@@ -47,17 +47,21 @@
 <div class="content">
     <div class="container">
         <div class="text">
-            <p>Add a new classroom!</p>
-            <p>Just enter your classroom name and the classroom code. Any student who logs in with the classroom code will be automatically added to your class.</p>
-            <br>
+            <h5>What do you need help with?</h5>
+            <select>
+                <option value="select">Select a topic</option>
+                <option value="Clarification">Clarification on assignment</option>
+                <option value="bullying">Cyberbullying</option>
+                <option value="unresponsive">Unresponsive Partners</option>
+                <option value="other">Other</option>
+            </select>
+            <h5>Provide some more details!</h5>
+            <form action="submitmessage.html">
+                <textarea rows="5"></textarea>
+                <input type="submit" class="btn btn-positive">
+            </form>
         </div>
-        <form>
-        <input type="text" id="classname" placeholder="Classroom name">
-        <input type="text" placeholder="Classroom code">
-
-        <a class="btn btn-positive btn-block" href="teacherhomenew.html">Add Classroom</a>
-
-    </form>
+        
     </div>
 
 </div>

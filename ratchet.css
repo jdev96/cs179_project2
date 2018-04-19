@@ -1473,8 +1473,8 @@ select {
 }
 
 .plusbutton{
-  max-width: 15px;
-  height: 15px;
+  max-width: 20px;
+  height: 20px;
   float: left;
   margin-top: 3px;
 }
@@ -1571,7 +1571,7 @@ select {
 .labeltext {
   font-size: 14px;
   color: #777;
-  margin: 5px;
+  margin: 10px;
 }
 
 #record {
@@ -1609,4 +1609,29 @@ select {
   margin: 5px;
   float: right;
   align-self: flex-end;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+  font-size: 110%;
+  display: inline;
+}
+
+iframe {
+  position:fixed;
+  left: 4000px;
+  height: 1px;
+  width: 1px;
 }

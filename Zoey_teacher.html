@@ -21,7 +21,7 @@
     <body>
         <!-- Make sure all your bars are the first things in your <body> -->
         <header class="bar bar-tab">
-            <a class="tab-item" href="chat.html">
+            <a class="tab-item" href="#">
                 <img src="img/comments.png" class="icon">
                 <span class="tab-label">Messages</span>
             </a>
@@ -29,7 +29,7 @@
                 <img src="img/home.png" class="icon">
                 <span class="tab-label">Home</span>
             </a>
-            <a class="tab-item" href="#">
+            <a class="tab-item" href="teachersettings.html">
                 <img src="img/gear.png" class="icon">
                 <span class="tab-label">Settings</span>
             </a>
@@ -49,63 +49,80 @@
                 <div class="text">
                     <h2>Zoey Smith</h2>
                     <p>Comfort Level: 6</p>
-                    <p>Number of practices: 0</p>
+                    <p>Number of practices: 1</p>
                 </div>
                 <p class="content-padded">Identify Zoey's strengths and improvement points to help us better match her with another student!</p>
-                <h6>Strengths:</h6>
+                <br>
+                <h4>Strengths:</h4>
                 <div class="checkbox">
                     <div class="checkboxleft">
+                        <br>
                         <form>
                             <input type="checkbox" id="enunciation"><label for="enunciation" class="labeltext">Enunciation</label>
                         </form>
+                        <br>
                         <form>
                             <input type="checkbox" id="pacing"><label for="packing" class="labeltext">Pacing</label>
                         </form>
+                        <br>
                         <form>
                             <input type="checkbox" id="gestures"><label for="gestures" class="labeltext">Gestures</label>
                         </form>
+                        <br>
                         <form>
                             <input type="checkbox" id="eye"><label for="eye" class="labeltext">Eye Contact</label>
                         </form>
                     </div>
                     <div class="checkboxright">
+                        <br>
                         <form>
                             <input type="checkbox" id="volume"><label for="volume" class="labeltext">Volume</label>
                         </form>
+                        <br>
                         <form>
                             <input type="checkbox" id="flow"><label for="flow" class="labeltext">Flow</label>
                         </form>
+                        <br>
                         <div style="display:inline"><img src="img/plus.png" style="display:inline" class="plusbutton"><p class="labeltext" style="display:inline">Custom</p></div>
                     </div>
                 </div>
-                <h6>Needs Work:</h6>
+                <br>
+                <h4>Needs Work:</h4>
                 <div class="checkbox">
                     <div class="checkboxleft">
+                        <br>
                         <form>
                             <input type="checkbox" id="enunciation1"><label for="enunciation" class="labeltext">Enunciation</label>
                         </form>
+                        <br>
                         <form>
                             <input type="checkbox" id="pacing1"><label for="packing" class="labeltext">Pacing</label>
                         </form>
+                        <br>
                         <form>
                             <input type="checkbox" id="gestures1"><label for="gestures" class="labeltext">Gestures</label>
                         </form>
+                        <br>
                         <form>
                             <input type="checkbox" id="eye1"><label for="eye" class="labeltext">Eye Contact</label>
                         </form>
                     </div>
                     <div class="checkboxright">
+                        <br>
                         <form>
                             <input type="checkbox" id="volume1"><label for="volume" class="labeltext">Volume</label>
                         </form>
+                        <br>
                         <form>
                             <input type="checkbox" id="flow1"><label for="flow" class="labeltext">Flow</label>
                         </form>
+                        <br>
                         <div style="display:inline"><img src="img/plus.png" style="display:inline" class="plusbutton"><p class="labeltext" style="display:inline">Custom</p></div>
                     </div>
                 </div>
-                <input class="btn  btn-bloc" type="button" id="ReserveerButton1" value="Save" onclick="save()"/>
-
+                <div class="container">
+                    <input class="btn btn-primary" type="button" id="ReserveerButton1" value="Save" onclick="save()">
+                </div>
             </div>
 
             <div class="card">
@@ -120,8 +137,8 @@
                     </li>
                     <li class="table-view-cell media">
                         <a class="navigate-right">
-                            <img class="media-object pull-left" src="img/add.png">
-                            <div class="media-body"><p>Hand-pick a partner for Zoey!</p></div>
+                            <img class="media-object pull-left" src="img/add1.png">
+                            <div class="media-body">Want more control? <p>Hand pick a partner for Zoey!</p></div>
                         </a>
                     </li>
                 </ul>
@@ -135,6 +152,5 @@
         </div>
 
         <script src="js/homepage.js"></script>
-
     </body>
 </html>
