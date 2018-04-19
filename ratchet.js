@@ -1007,3 +1007,30 @@ function wis(){
 
 load();
 })
+
+
+
+// function AddClass() {
+//   var newclass = document.createElement("li");
+//   newclass.className="table-view-cell media";
+//   var classbox = document.createElement("a");
+//   classbox.className="navigate-right";
+//   var classpic = document.createElement("img");
+//   classpic.className= "img-object pull-left";
+//   classpic.src = "img/class4.jpg";
+//   var textdiv = document.createElement("div");
+//   textdiv.className = "media-body";
+//   var classname = document.getElementById("classname");
+//   textdiv.innerHTML = classname;
+//   var students = document.createElement("p");
+//   students.innerHTML = "8 students";
+//   textdiv.appendChild(students);
+//   console.log(textdiv);
+//   classbox.appendChild(classpic);
+//   classbox.appendChild(textdiv);
+//   console.log(classbox);
+//   newclass.appendChild(classbox);
+//   var class3 = document.getElementById("teacherhome").contentWindow.document.getElementById("class3");
+//   console.log(class3);
+//   class3.appendChild(newclass);
+// }

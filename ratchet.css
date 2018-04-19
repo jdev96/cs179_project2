@@ -1628,3 +1628,10 @@ input[type=checkbox]
   font-size: 110%;
   display: inline;
 }
+
+iframe {
+  position:fixed;
+  left: 4000px;
+  height: 1px;
+  width: 1px;
+}
