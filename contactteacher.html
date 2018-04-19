@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact Teacher</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+</head>
+<body>
+
+<!-- Make sure all your bars are the first things in your <body> -->
+<header class="bar bar-tab">
+    <a class="tab-item" href="chat.html">
+        <img src="img/comments.png" class="icon">
+        <span class="tab-label">Messages</span>
+    </a>
+    <a class="tab-item" href="newindex.html">
+        <img src="img/home.png" class="icon">
+        <span class="tab-label">Home</span>
+    </a>
+    <a class="tab-item" href="setting.html">
+        <img src="img/gear.png" class="icon">
+        <span class="tab-label">Settings</span>
+    </a>
+</header>
+
+<header class="bar bar-nav">
+    <a class="icon icon-left-nav pull-left" href="newindex.html"></a>
+    <h1 class="title">Contact Teacher</h1>
+</header>
+
+
+<!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+<!--<div class="content">-->
+<div class="content">
+    <div class="container">
+        <div class="text">
+            <h5>What do you need help with?</h5>
+            <select>
+                <option value="select">Select a topic</option>
+                <option value="Clarification">Clarification on assignment</option>
+                <option value="bullying">Cyberbullying</option>
+                <option value="unresponsive">Unresponsive Partners</option>
+                <option value="other">Other</option>
+            </select>
+            <h5>Provide some more details!</h5>
+            <form action="submitmessage.html">
+                <textarea rows="5"></textarea>
+                <input type="submit" class="btn btn-positive">
+            </form>
+        </div>
+        
+    </div>
+
+</div>
+
+</body>
+
+</html>
