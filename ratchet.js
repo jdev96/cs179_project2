@@ -941,7 +941,7 @@
     toggle    = false;
   });
 
-  function save(){
+function save(){
     var pacing = document.getElementById('pacing');
     var enunciation = document.getElementById('enunciation');
     var gestures = document.getElementById('gestures');
