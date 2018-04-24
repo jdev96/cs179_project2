@@ -56,6 +56,24 @@
           <p class="content-padded">If you need a reminder of any of this information, just click the information tab to the right of the Home header.</p>
         </div>
     </div>
+    <div id="alertmodal" class="modal">
+        <header class="bar bar-nav">
+          <a class="icon icon-close pull-right" href="#alertmodal"></a>
+          <h1 class="title">Alert</h1>
+        </header>
+        <div class="content">
+          <div class="container">
+            <div class="text">
+              <h5>Alex has asked you to practice with him! Would you like to view the practice now?</h5>
+              <br>
+              <a class="btn btn-positive" href="alexpractice.html">Accept and View Practice</a>
+              <br>
+              <br>
+              <a class="btn btn-negative" href="#alertmodal">Decline Practice Request</a>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
       <div class="container">
@@ -66,6 +84,9 @@
           <h2>Zoey Smith</h2>
           <p>Comfort Level: 6</p>
           <p>Number of practices: 1</p>
+          <br>
+          <h5>NEW ALERT!</h5>
+          <a href="#alertmodal" class="btn btn-negative" onclick="alert()">Click to View<span class="badge badge-negative">1</span></a>
         </div>
       </div>
       <div class="card">

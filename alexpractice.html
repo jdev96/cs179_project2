@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Camera</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+  </head>
+
+  <body>
+        <header class="bar bar-nav">
+            <a class="icon icon-left-nav pull-left" href="newindex.html"></a>
+            <h1 class="title">Alex R.</h1>
+        </header>
+        <div class="bar bar-standard bar-footer">
+            <img src="img/photo-camera.png" class="photobutton">
+
+                <!-- <input type="search" placeholder="Type message"> -->
+                <form id="message">
+                        <!--<div class="upload-btn">
+                            <button class="btn"><i class="fa fa-photo"></i></button>
+                            <input type="file" name="myfile" />
+                        </div>-->
+                        <input type="text" name="" placeholder="type here...">
+                        <button class="btn-send"><i class="fa fa-send"></i></button>
+                      </form>
+
+            <img src="img/send-button.png" class="sendbutton">
+        </div>
+
+        <div class="content" id="messages">
+            <div class="message">
+                <div class="theirmessage">
+                    <div class="theirtextmessage">
+                        This is my practice video! Let me know what you think. <br>
+                        <img src="img/video-player.png">
+                    </div>
+                </div>
+                <img src="img/alex.png" class="theirimage">
+            </div>
+
+ <script type="text/javascript">
+      var messages = []
+      function render() {
+        messages.map(({from, msg}) => {          
+          var content = document.getElementById("messages")
+          var message = document.createElement('div')
+          message.className = 'message'
+          var img = new Image()
+          img.className = 'yourimage'
+          img.src = 'img/zoey.png'
+          var messagediv = document.createElement("div")
+          messagediv.className="yourmessage"
+          var text = document.createElement('div')
+          text.innerText = msg 
+          text.className="yourtextmessage"         
+          messagediv.appendChild(text)
+          message.appendChild(img)
+          message.appendChild(messagediv)
+          content.appendChild(message)
+        })
+      }
+      var messageForm = document.querySelector('#message')
+      messageForm.addEventListener('submit', evt => {
+        evt.preventDefault()
+        var input = messageForm.querySelector('input')
+        messages.push({msg: input.value, from: 'Justin'})
+        input.value = ''
+        render()        
+      })
+      render()
+    </script>
+</body>
+</html>
