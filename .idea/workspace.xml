@@ -13,32 +13,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="190">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
       <file leaf-file-name="openingpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openingpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="361">
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ratchet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ratchet.css">
+      <file leaf-file-name="teacherloginfor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacherloginfor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="1660" column="17" lean-forward="true" selection-start-line="1660" selection-start-column="17" selection-end-line="1660" selection-end-column="17" />
+            <state relative-caret-position="608">
+              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classroomcode.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="teacherhome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacherhome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+              <folding>
+                <marker date="1524172407787" expanded="true" signature="2884:2892" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teachersettings.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/teachersettings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classroomcode.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classroomcode.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,16 +71,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1653">
               <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -96,8 +108,8 @@
       <find>record</find>
       <find>review feed</find>
       <find>home</find>
-      <find>setting</find>
       <find>number</find>
+      <find>setting</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,7 +127,6 @@
         <option value="$PROJECT_DIR$/Alex_teacher.html" />
         <option value="$PROJECT_DIR$/studenthome.css" />
         <option value="$PROJECT_DIR$/practice.html" />
-        <option value="$PROJECT_DIR$/teacherloginfor.html" />
         <option value="$PROJECT_DIR$/TeacherHome.html" />
         <option value="$PROJECT_DIR$/Class1.html" />
         <option value="$PROJECT_DIR$/Alex.html" />
@@ -138,6 +149,8 @@
         <option value="$PROJECT_DIR$/openingpage.html" />
         <option value="$PROJECT_DIR$/ratchet.css" />
         <option value="$PROJECT_DIR$/classroomcode.html" />
+        <option value="$PROJECT_DIR$/teacherloginfor.html" />
+        <option value="$PROJECT_DIR$/teachersettings.html" />
       </list>
     </option>
   </component>
@@ -148,8 +161,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="866" />
-    <option name="y" value="13" />
+    <option name="x" value="887" />
+    <option name="y" value="1" />
     <option name="width" value="1023" />
     <option name="height" value="1034" />
   </component>
@@ -237,15 +250,15 @@
       <workItem from="1523991520828" duration="2570000" />
       <workItem from="1524103168326" duration="2547000" />
       <workItem from="1524172429990" duration="3496000" />
-      <workItem from="1524535425678" duration="1836000" />
+      <workItem from="1524535425678" duration="2129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41772000" />
+    <option name="totallyTimeSpent" value="42065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="866" y="13" width="1023" height="1034" extended-state="0" />
+    <frame x="887" y="1" width="1023" height="1034" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2780536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -277,7 +290,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StudentHome.html" />
     <entry file="file://$PROJECT_DIR$/classroom1.html" />
     <entry file="file://$PROJECT_DIR$/survey.css" />
     <entry file="file://$PROJECT_DIR$/studenthome.css" />
@@ -324,13 +336,6 @@
     <entry file="file://$PROJECT_DIR$/studenthome.css" />
     <entry file="file://$PROJECT_DIR$/classroom1.html" />
     <entry file="file://$PROJECT_DIR$/teacherHome.css" />
-    <entry file="file://$PROJECT_DIR$/teacherloginfor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/survey.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -400,13 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teacherhome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addclassroom.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -455,26 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newpractice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zoey_teacher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -492,10 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openingpage.html">
+    <entry file="file://$PROJECT_DIR$/classroomcode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -508,10 +490,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classroomcode.html">
+    <entry file="file://$PROJECT_DIR$/chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="494">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zoey_teacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openingpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacherloginfor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacherhome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <marker date="1524172407787" expanded="true" signature="2884:2892" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachersettings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="21" />
           <folding />
         </state>
       </provider>
