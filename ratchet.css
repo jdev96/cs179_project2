@@ -1712,8 +1712,8 @@ iframe {
 .white {
   color: white;
   font-family: museo-sans-rounded, sans-serif;
-font-style: normal;
-font-weight: 300;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .rangeslidecontainer {
