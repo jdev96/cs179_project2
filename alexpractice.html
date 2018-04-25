@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Camera</title>
+    <title>Alex Practice</title>
 
     <!-- Sets initial viewport load and disables zooming  -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -20,7 +20,9 @@
 
   <body>
         <header class="bar bar-nav">
-            <a class="icon icon-left-nav pull-left" href="newindex.html"></a>
+            <span id="navbar">
+                <a class="icon icon-left-nav pull-left" href="newindex.html"></a>
+            </span>
             <h1 class="title">Alex R.</h1>
         </header>
         <div class="bar bar-standard bar-footer">
@@ -39,6 +41,25 @@
             <img src="img/send-button.png" class="sendbutton">
         </div>
 
+        <div id="tipsmodal" class="modal">
+            <header class="bar bar-nav">
+                <h1 class="title">Tips</h1>
+                <a class="icon icon-close pull-right" href="#tipsmodal"></a>
+            </header>
+            <div class="content">
+                <div class="text">
+                    <h5>Giving Feedback</h5>
+                    <h5>BE KIND</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5>DON'T BE SELFISH</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5>BE CONSTRUCTIVE</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5>Areas for Feedback</h5>
+                </div>
+            </div>
+        </div>
+
         <div class="content" id="messages">
             <div class="message">
                 <div class="theirmessage">
@@ -49,8 +70,25 @@
                 </div>
                 <img src="img/alex.png" class="theirimage">
             </div>
+            <div class="tips" id="tips">
+                <button class="icon icon-close pull-right" onclick="remove()"></button>
+                <div class="text">
+                    <h5>Need help giving feedback?</h5>
+                    <a class="btn btn-primary" href="#tipsmodal">See Tips</a>
+                </div>
+            </div>
 
  <script type="text/javascript">
+      function remove(){
+          var tips = document.getElementById("tips");
+          var content = document.getElementById("messages");
+          var tipsbutton = document.createElement("button");
+          tipsbutton.className = "btn btn-link btn-nav pull-right";
+          tipsbutton.innerHTML = "Tips";
+          var navbar = document.getElementById("navbar");
+          navbar.appendChild(tipsbutton);
+          content.removeChild(tips);
+      }
       var messages = []
       function render() {
         messages.map(({from, msg}) => {          
