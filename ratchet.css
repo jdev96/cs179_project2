@@ -1749,4 +1749,13 @@ font-weight: 300;
   height: 25px;
   background: #4CAF50;
   cursor: pointer;
+<<<<<<< HEAD
+=======
+}
+
+.cover{
+  background-image: url("img/cover.jpg");
+  background-size: cover;
+  position: absolute;
+>>>>>>> 8ef14273ddd7661db696894367b382523958b1cb
 }
