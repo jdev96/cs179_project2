@@ -17,8 +17,18 @@
       <file leaf-file-name="openingpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openingpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ratchet.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ratchet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="1746" column="21" lean-forward="false" selection-start-line="1746" selection-start-column="21" selection-end-line="1746" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -27,8 +37,8 @@
       <file leaf-file-name="setting.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="950">
+              <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -56,11 +66,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teachersettings.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="teachersettings.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teachersettings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="209">
+              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newindex.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newindex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/classroomcode.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/Zoey_teacher.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1653">
-              <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+              <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -155,13 +175,13 @@
         <option value="$PROJECT_DIR$/teacherhomenew.html" />
         <option value="$PROJECT_DIR$/Zoey_teacher.html" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/openingpage.html" />
-        <option value="$PROJECT_DIR$/ratchet.css" />
         <option value="$PROJECT_DIR$/classroomcode.html" />
         <option value="$PROJECT_DIR$/teacherloginfor.html" />
         <option value="$PROJECT_DIR$/teachersettings.html" />
         <option value="$PROJECT_DIR$/modal.html" />
         <option value="$PROJECT_DIR$/setting.html" />
+        <option value="$PROJECT_DIR$/openingpage.html" />
+        <option value="$PROJECT_DIR$/ratchet.css" />
       </list>
     </option>
   </component>
@@ -172,8 +192,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="603" />
-    <option name="y" value="60" />
+    <option name="x" value="649" />
+    <option name="y" value="16" />
     <option name="width" value="1023" />
     <option name="height" value="1034" />
   </component>
@@ -192,19 +212,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cs179_project2" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs179_project2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs179_project2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs179_project2" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,14 +278,16 @@
       <workItem from="1524172429990" duration="3496000" />
       <workItem from="1524535425678" duration="2486000" />
       <workItem from="1524541158440" duration="208000" />
+      <workItem from="1524674717710" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42630000" />
+    <option name="totallyTimeSpent" value="42735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="603" y="60" width="1023" height="1034" extended-state="0" />
+    <frame x="649" y="16" width="1023" height="1034" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2164846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -427,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="67" lean-forward="true" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -465,15 +475,8 @@
     <entry file="file://$PROJECT_DIR$/classroomcode.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ratchet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="1660" column="17" lean-forward="true" selection-start-line="1660" selection-start-column="17" selection-end-line="1660" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -487,7 +490,7 @@
     <entry file="file://$PROJECT_DIR$/Zoey_teacher.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1653">
-          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+          <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -524,24 +527,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openingpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="950">
+          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teachersettings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="209">
+          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openingpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ratchet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="1746" column="21" lean-forward="false" selection-start-line="1746" selection-start-column="21" selection-end-line="1746" selection-end-column="21" />
           <folding />
         </state>
       </provider>

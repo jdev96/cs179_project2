@@ -1739,11 +1739,10 @@ iframe {
   height: 25px;
   background: #4CAF50;
   cursor: pointer;
-=======
+}
+
 .cover{
   background-image: url("img/cover.jpg");
   background-size: cover;
   position: absolute;
-  /*right: 0px;*/
->>>>>>> 340a0f77ad77ecadecbcf6b58838776ba37868c6
 }
