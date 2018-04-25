@@ -250,7 +250,7 @@ body {
 a {
   color: #428bca;
   text-decoration: none;
-
+  font-family: 'Comfortaa', cursive;
   -webkit-tap-highlight-color: transparent;
 }
 a:active {
@@ -360,10 +360,10 @@ p {
 .btn {
   position: relative;
   display: inline-block;
-  padding: 15px 8px 15px;
+  padding: 15px;
   margin-bottom: 0;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1;
   color: #333;
   text-align: center;
@@ -373,6 +373,7 @@ p {
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 3px;
+  font-family: 'Comfortaa', cursive;
 }
 .btn:active, .btn.active {
   color: inherit;
@@ -384,24 +385,24 @@ p {
 
 .btn-primary {
   color: #fff;
-  background-color: #428bca;
-  border: 1px solid #428bca;
+  background-color: #1CB0F6;
+  border: 1px solid #1CB0F6;
 }
 .btn-primary:active, .btn-primary.active {
   color: #fff;
-  background-color: #3071a9;
-  border: 1px solid #3071a9;
+  background-color: #1CB0F6;
+  border: 1px solid #1CB0F6;
 }
 
 .btn-positive {
   color: #fff;
-  background-color: #388e3c;
-  border: 1px solid #388e3c;
+  background-color: rgb(99, 165, 7);
+  border: 1px solid rgb(99, 165, 7);
 }
 .btn-positive:active, .btn-positive.active {
   color: #fff;
-  background-color: #449d44;
-  border: 1px solid #449d44;
+  background-color: rgb(99, 165, 7);
+  border: 1px solid rgb(99, 165, 7);
 }
 
 .btn-amber {
@@ -417,13 +418,13 @@ p {
 
 .btn-negative {
   color: #fff;
-  background-color: #d9534f;
-  border: 1px solid #d9534f;
+  background-color: #E53B3B;
+  border: 1px solid #E53B3B;
 }
 .btn-negative:active, .btn-negative.active {
   color: #fff;
-  background-color: #c9302c;
-  border: 1px solid #c9302c;
+  background-color:#E53B3B;
+  border: 1px solid #E53B3B;
 }
 
 .btn-outlined {
@@ -754,6 +755,7 @@ input[type="button"] {
   padding: 11px 65px 11px 15px;
   overflow: hidden;
   border-bottom: 1px solid #ddd;
+  font-family: 'Comfortaa', cursive;
 }
 .table-view-cell:last-child {
   border-bottom: 0;
@@ -779,11 +781,12 @@ input[type="button"] {
   padding-left: 15px;
   margin-top: -1px;
   margin-left: 0;
-  font-weight: 500;
+  font-weight: 900;
   color: #999;
   background-color: #fafafa;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
+  font-family: 'Comfortaa', cursive;
 }
 
 .table-view .media,
@@ -1155,8 +1158,12 @@ select {
   overflow: hidden;
 }
 
+.darkblue {
+  background-color: rgb(0, 106, 155);
+}
+
 .blue {
-  background-color: #1976d2;
+  background-color: #1CB0F6;
 }
 
 .grey {
@@ -1164,11 +1171,11 @@ select {
 }
 
 .amber {
-  background-color: #ffc107;
+  background-color: #ffb020;
 }
 
 .green {
-  background-color: #388e3c;
+  background-color: rgb(99, 165, 7);
 }
 
 .slider .slide-group {
@@ -1535,7 +1542,9 @@ select {
 
 .text {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: museo-sans-rounded, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .buttondiv {
@@ -1691,7 +1700,6 @@ iframe {
   height: 1px;
   width: 1px;
 }
-<<<<<<< HEAD
 
 .tips {
   border-style: solid;
@@ -1703,7 +1711,9 @@ iframe {
 
 .white {
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: museo-sans-rounded, sans-serif;
+font-style: normal;
+font-weight: 300;
 }
 
 .rangeslidecontainer {
@@ -1739,11 +1749,4 @@ iframe {
   height: 25px;
   background: #4CAF50;
   cursor: pointer;
-=======
-.cover{
-  background-image: url("img/cover.jpg");
-  background-size: cover;
-  position: absolute;
-  /*right: 0px;*/
->>>>>>> 340a0f77ad77ecadecbcf6b58838776ba37868c6
 }
