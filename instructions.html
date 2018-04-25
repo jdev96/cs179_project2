@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+  </head>
+  <body>
+      <div id="evaluate" class="modal">
+          <div class="content blue">
+          <div class="container">
+                <div class="text white">
+                    <p></p><br>
+                    <h1>How comfortable</h1><br>
+                    <h1>are you with</h1><br>
+                    <h1>Public Speaking?</h1><br><br>
+                    <div class="rangeslidecontainer">
+                        <input type="range" min="1" max="10" value="5" class="rangeslider" id="myRange">
+                        <p></p><br>
+                        <h4>My comfort level is: <span id="demo"></span></h4>
+                        <br>
+                        <a class="btn btn-positive" href="#evaluate"> Done Evaluating! </a>
+                    </div>
+                </div>
+          </div>
+          </div>
+      </div>
+            <div class="slider" id="mySlider">
+                <div class="slide-group">
+                    <div class="slide blue">
+                        <div class="slide-content">
+                            <div class="text">
+                                <h1 class="white">Welcome</h1><br>
+                                <h1 class="white">to</h1><br>
+                                <h1 class="white">SpeakEasy!</h1><br>
+                                <br>
+                                <p class="white">SpeakEasy is a classroom-based app designed to help YOU get better at public speaking!</p>
+                                <p class="white">Get started with this short tutorial.</p>
+                                <br><br><br>
+                                <span class="slide-text white">
+                                <span class="icon icon-left-nav"></span>
+                                    Slide left to continue 
+                                </span>
+                                <p></p><br><p class="white">OR</p><br>
+                                <a class="btn btn-amber" href="initialstudenthome.html">SKIP TUTORIAL</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide amber">
+                            <div class="slide-content">
+                                <div class="text grey">
+                                    <h1>Practice</h1><br>
+                                    <h1>Makes Perfect</h1><br>
+                                    <p class="grey">You will be matched with another student based on your strengths* and comfort level with speaking.</p><br>
+                                    <a href="#evaluate" class="btn btn-positive">Set Comfort Level</a><p></p>
+                                    <br>
+                                    <p class="grey">You MUST practice once with your first partner. Your other matches will be unlocked after this achievement!</p><br>
+                                    <p class="grey">* Teacher-evaluated</p><br>
+                                    <span class="slide-text">
+                                    <span class="icon icon-left-nav pull-left"></span>
+                                        Keep swiping!
+                                    <span class="icon icon-right-nav pull-right"></span>
+                                    </span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="slide green">
+                            <div class="slide-content">
+                                 <div class="text white">
+                                     <h1>How It Works</h1>
+                                     <br><br>
+                                     <p class="white">Send videos of your practice speeches to classmates for feedback from the HOME page.</p><br>
+                                     <p class="white">Check your ongoing chats in the MESSAGES page.</p><br>
+                                     <p class="white">Change your profile picture, comfort level, and more in SETTINGS.</p><br>
+                                     <br><h4>DON'T WORRY!</h4>
+                                     <p class="white">If you forget any of this, just click the info button on the top right corner of the HOME page.</p>
+                                     <br>
+                                     <a class="btn btn-amber" href="initialstudenthome.html">GET STARTED</a>
+                                 </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    <script type="text/javascript">
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+
+        slider.oninput = function() {
+            output.innerHTML = this.value;
+            localStorage.setItem("comfort", slider.value);
+        }
+    </script>
+  </body>
+</html>
