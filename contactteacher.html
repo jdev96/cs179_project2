@@ -13,6 +13,8 @@
 
     <!-- Include the compiled Ratchet CSS -->
     <link href="ratchet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
 
     <!-- Include the compiled Ratchet JS -->
     <script src="ratchet.js"></script>
@@ -21,33 +23,30 @@
 <body>
 
 <!-- Make sure all your bars are the first things in your <body> -->
-<header class="bar bar-tab">
+<header class="bar bar-tab darkblue">
     <a class="tab-item" href="chat.html">
         <img src="img/comments.png" class="icon">
-        <span class="tab-label">Messages</span>
     </a>
-    <a class="tab-item" href="newindex.html">
+    <a class="tab-item" href="newnewindex.html">
         <img src="img/home.png" class="icon">
-        <span class="tab-label">Home</span>
     </a>
     <a class="tab-item" href="setting.html">
         <img src="img/gear.png" class="icon">
-        <span class="tab-label">Settings</span>
     </a>
 </header>
 
-<header class="bar bar-nav">
-    <a class="icon icon-left-nav pull-left" href="newindex.html"></a>
-    <h1 class="title">Contact Teacher</h1>
+<header class="bar bar-nav darkblue">
+    <a class="white icon icon-left-nav pull-left" href="newnewindex.html"></a>
+    <h1 class="title white headfont">Contact Teacher</h1>
 </header>
 
 
 <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
 <!--<div class="content">-->
-<div class="content">
+<div class="content blue">
     <div class="container">
-        <div class="text">
-            <h5>What do you need help with?</h5>
+        <div class="text headfont">
+            <h5 class="white">What do you need help with?</h5>
             <select>
                 <option value="select">Select a topic</option>
                 <option value="Clarification">Clarification on assignment</option>
@@ -55,7 +54,7 @@
                 <option value="unresponsive">Unresponsive Partners</option>
                 <option value="other">Other</option>
             </select>
-            <h5>Provide some more details!</h5>
+            <h5 class="white">Provide some more details!</h5>
             <form action="submitmessage.html">
                 <textarea rows="5"></textarea>
                 <input type="submit" class="btn btn-positive">
