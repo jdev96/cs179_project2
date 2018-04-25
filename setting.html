@@ -13,6 +13,8 @@
 
     <!-- Include the compiled Ratchet CSS -->
     <link href="ratchet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
 
     <!-- Include the compiled Ratchet JS -->
     <script src="ratchet.js"></script>
@@ -21,39 +23,35 @@
   <body>
 
     <!-- Make sure all your bars are the first things in your <body> -->
-    <header class="bar bar-tab">
+    <header class="bar bar-tab darkblue">
         <a class="tab-item" href="chat.html">
             <img src="img/comments.png" class="icon">
-            <span class="tab-label">Messages</span>
         </a>
         <a class="tab-item" href="newindex.html">
             <img src="img/home.png" class="icon">
-            <span class="tab-label">Home</span>
         </a>          
         <a class="tab-item active" href="setting.html">
             <img src="img/gear.png" class="icon">
-            <span class="tab-label">Settings</span>
         </a>
     </header>
 
-    <header class="bar bar-nav">
-        <h1 class="title">Settings</h1>
+    <header class="bar bar-nav darkblue">
+        <h1 class="title white headfont">Settings</h1>
     </header>
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
-    <div class="content">
+    <div class="content blue">
       <div class="container">
         <div>
           <img src="img/zoey.png" alt="Avatar" class="image">
         </div>
-        <div class="text">
-          <h2>Zoey Smith</h2>
-          <p>Comfort Level: 6</p>
-          <p>Number of practices: 1</p>
+        <div class="text white headfont">
+          <h2><br>Zoey Smith</h2>
+          <p class="white">Comfort Level: 6<br>Number of practices: 1</p>
         </div>
       </div>
       <div class="table">
-        <ul class="table-view">
+        <ul class="table-view card">
             <li class="table-view-divider">Basic Settings</li>
             <li class="table-view-cell media">
                 <a class="navigate-center">
@@ -64,10 +62,13 @@
             <li class="table-view-cell media">
               <a class="navigate-right">
                 <div class="media-body">Change password<p></p></div></a>
-            <li class="table-view-divider">Join a Class</li>
+            <li class="table-view-divider">Advanced Settings</li>
             <li class="table-view-cell media">
               <a class="navigate-right">
-                <div class="media-body">Add classroom code<p></p></div></a>
+                <div class="media-body">Add classroom code<p></p></div></a></li>
+            <li class="table-view-cell media">
+              <a class="navigate-right" href="comfort.html">
+                <div class="media-body">Change comfort level<p></p></div></a></li>
         </ul>
       </div>
       <div class="container">
