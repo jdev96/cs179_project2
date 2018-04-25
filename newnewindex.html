@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Student Homepage</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-tab darkblue">
+        <a class="tab-item" href="chat.html">
+            <img src="img/comments.png" class="icon">
+        </a>
+        <a class="tab-item active" href="newindex.html">
+            <img src="img/home.png" class="icon">
+        </a>          
+        <a class="tab-item" href="setting.html">
+            <img src="img/gear.png" class="icon">
+        </a>
+    </header>
+
+    <header class="bar bar-nav darkblue">
+        <a href="instructions.html" class="btn btn-link"><img src="img/info.png" class="info"></a>
+        <h1 class="title white headfont">Home</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content blue">
+      <div class="container">
+        <div>
+          <img src="img/zoey.png" alt="Avatar" class="image">
+        </div>
+        <div class="headfont text white">
+          <h2><br>Zoey Smith</h2>
+          <p class="white">Comfort Level: 6<br>Number of practices: 1</p>
+        </div>
+      </div>
+      <div class="card">
+        <ul class="table-view">
+            <li class="table-view-divider">Your Turn to Practice</li>
+            <li class="table-view-cell media">
+                    <!--<a class="navigate-right" href="Alex.html">-->
+                      <img class="media-object pull-left" src="img/alex.png">
+                      <div class="media-body">Alex R.<p>Comfort Level: 6</p></div></a>
+                    <button class="btn btn-primary">SEND VIDEO</button></li>
+            <li class="table-view-divider">Top Matches</li>
+            <li class="table-view-cell media">
+              <a class="navigate-right">
+                <img class="media-object pull-left" src="img/brian.png">
+                <div class="media-body">Brian G.<p>Comfort Level: 6</p></div></a>
+              <button class="btn btn-primary">PRACTICE</button></li>
+            <li class="table-view-cell media">
+
+              <a class="navigate-right">
+                <img class="media-object pull-left" src="img/sara.png">
+                <div class="media-body">Ashley P.<p>Comfort Level: 5</p></div></a>
+                <!--<a  href="chat.html">-->
+                <button class="btn btn-primary">PRACTICE</button>
+                <!--</a>-->
+            </li>
+            <li class="table-view-divider">Previous Partners</li>
+            <li class="table-view-cell media">
+              <a class="navigate-right">
+                <img class="media-object pull-left" src="img/justin.png">
+                <div class="media-body">Justin D.<p>Comfort Level: 6</p></div></a>
+              <button class="btn btn-primary btn-outlined">Review Feedback</button></li>
+        </ul>
+      </div>
+      <div class="container">
+          <div class="text white headfont">
+            <h5>Need help?</h5>
+          </div>
+          <a class="btn btn-negative btn-bloc" href="contactteacher.html">Contact Teacher</a>
+      </div>
+    </div>
+
+  </body>
+
+</html>
