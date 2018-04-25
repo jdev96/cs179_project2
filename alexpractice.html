@@ -13,19 +13,21 @@
 
     <!-- Include the compiled Ratchet CSS -->
     <link href="ratchet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
 
     <!-- Include the compiled Ratchet JS -->
     <script src="ratchet.js"></script>
   </head>
 
   <body>
-        <header class="bar bar-nav">
+        <header class="bar bar-nav darkblue">
             <span id="navbar">
-                <a class="icon icon-left-nav pull-left" href="newindex.html"></a>
+                <a class="white icon icon-left-nav pull-left" href="newindex.html"></a>
             </span>
-            <h1 class="title">Alex R.</h1>
+            <h1 class="title white headfont">Alex R.</h1>
         </header>
-        <div class="bar bar-standard bar-footer">
+        <div class="bar bar-standard bar-footer darkblue">
             <img src="img/photo-camera.png" class="photobutton">
 
                 <!-- <input type="search" placeholder="Type message"> -->
@@ -42,25 +44,27 @@
         </div>
 
         <div id="tipsmodal" class="modal">
-            <header class="bar bar-nav">
-                <h1 class="title">Tips</h1>
-                <a class="icon icon-close pull-right" href="#tipsmodal"></a>
+            <header class="bar bar-nav darkblue">
+                <h1 class="title white headfont">Tips</h1>
+                <a class="white icon icon-close pull-right" href="#tipsmodal"></a>
             </header>
-            <div class="content">
-                <div class="text">
-                    <h5>Giving Feedback</h5>
-                    <h5>BE KIND</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <h5>DON'T BE SELFISH</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <h5>BE CONSTRUCTIVE</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <h5>Areas for Feedback</h5>
+            <div class="content blue">
+                <div class="container">
+                <div class="text white">
+                    <h3 class="headfont">Giving Feedback</h3>
+                    <h5 class="headfont">BE KIND</h5>
+                    <p class="bodyfont white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5 class="headfont">DON'T BE SELFISH</h5>
+                    <p class="bodyfont white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5 class="headfont">BE CONSTRUCTIVE</h5>
+                    <p class="bodyfont white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h3 class="headfont"><br>Areas for Feedback</h3>
+                </div>
                 </div>
             </div>
         </div>
 
-        <div class="content" id="messages">
+        <div class="content blue" id="messages">
             <div class="message">
                 <div class="theirmessage">
                     <div class="theirtextmessage">
@@ -70,11 +74,11 @@
                 </div>
                 <img src="img/alex.png" class="theirimage">
             </div>
-            <div class="tips" id="tips">
+            <div class="tips fill" id="tips">
                 <button class="icon icon-close pull-right" onclick="remove()"></button>
-                <div class="text">
+                <div class="text bodyfont">
                     <h5>Need help giving feedback?</h5>
-                    <a class="btn btn-primary" href="#tipsmodal">See Tips</a>
+                    <a class="btn btn-positive" href="#tipsmodal">See Tips</a>
                 </div>
             </div>
 
@@ -82,8 +86,9 @@
       function remove(){
           var tips = document.getElementById("tips");
           var content = document.getElementById("messages");
-          var tipsbutton = document.createElement("button");
-          tipsbutton.className = "btn btn-link btn-nav pull-right";
+          var tipsbutton = document.createElement("a");
+          tipsbutton.className = "white bodyfont pull-right";
+          tipsbutton.href = "#tipsmodal"
           tipsbutton.innerHTML = "Tips";
           var navbar = document.getElementById("navbar");
           navbar.appendChild(tipsbutton);
