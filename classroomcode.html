@@ -26,10 +26,26 @@
         <div class="container">
             <form>
                 <input type="text" placeholder="ID number">
-                <input type="text" placeholder="Classroom code">
+                <input type="text" id="code" placeholder="Classroom code">
                 <input type="checkbox" id="checkbox"><label for="checkbox" class="content-padded">Remember Me!</label>
                 <p><br></p>
-                <a href="instructions.html"class="btn btn-primary btn-block">Get started!</a>
+                <button class="btn btn-primary btn-block" onclick="redirect()">Get Started!</button>
             </form>
         </div>
+        <script type="text/javascript">
+            function redirect() {
+                var code = document.getElementById("code");
+                console.log(code.value);
+                if (code.value=="12345") {
+                    window.location.assign = "initialstudenthome.html";
+                }
+                else if (code.value == 00000) {
+                    window.location.assign = "teacherhome.html";
+                }
+                else {
+                    alert("Please input valid classroom code");
+                }
+            }
+        </script>
   </body>
+</html>

@@ -250,7 +250,7 @@ body {
 a {
   color: #428bca;
   text-decoration: none;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Open Sans', sans-serif;
   -webkit-tap-highlight-color: transparent;
 }
 a:active {
@@ -373,7 +373,7 @@ p {
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 3px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 .btn:active, .btn.active {
   color: inherit;
@@ -755,7 +755,7 @@ input[type="button"] {
   padding: 11px 65px 11px 15px;
   overflow: hidden;
   border-bottom: 1px solid #ddd;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 .table-view-cell:last-child {
   border-bottom: 0;
@@ -1542,9 +1542,6 @@ select {
 
 .text {
   text-align: center;
-  font-family: museo-sans-rounded, sans-serif;
-  font-style: normal;
-  font-weight: 300;
 }
 
 .buttondiv {
@@ -1711,9 +1708,6 @@ iframe {
 
 .white {
   color: white;
-  font-family: museo-sans-rounded, sans-serif;
-  font-style: normal;
-  font-weight: 300;
 }
 
 .rangeslidecontainer {
@@ -1749,13 +1743,18 @@ iframe {
   height: 25px;
   background: #4CAF50;
   cursor: pointer;
-<<<<<<< HEAD
-=======
 }
 
 .cover{
   background-image: url("img/cover.jpg");
   background-size: cover;
   position: absolute;
->>>>>>> 8ef14273ddd7661db696894367b382523958b1cb
+}
+
+.headfont {
+  font-family: 'Comfortaa', cursive;
+}
+
+.bodyfont {
+  font-family: 'Open Sans', sans-serif;
 }
