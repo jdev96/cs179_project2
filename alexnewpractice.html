@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Alex Practice</title>
+    <title>Alex New Practice</title>
 
     <!-- Sets initial viewport load and disables zooming  -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -26,6 +26,7 @@
                 <a class="white icon icon-left-nav pull-left" href="newnewindex.html"></a>
             </span>
             <h1 class="title white headfont">Alex R.</h1>
+            <a class="btn btn-link pull-right" href="#tipsmodal">Tips</a>
         </header>
         <div class="bar bar-standard bar-footer darkblue">
             <img src="img/photo-camera.png" class="photobutton">
@@ -59,7 +60,6 @@
                     <h5 class="headfont">BE CONSTRUCTIVE</h5>
                     <p class="bodyfont white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <h3 class="headfont"><br>Areas for Feedback</h3>
-                    <p class="bodyfont white">Alex has would love feedback on enunciation, volume, and pacing. <br> Here are some tips you can give him: </p>
                 </div>
                 </div>
             </div>
@@ -75,26 +75,17 @@
                 </div>
                 <img src="img/alex.png" class="theirimage">
             </div>
-            <div class="tips fill" id="tips">
-                <button class="icon icon-close pull-right" onclick="remove()"></button>
-                <div class="text bodyfont">
-                    <h5>Need help giving feedback?</h5>
-                    <a class="btn btn-positive" href="#tipsmodal">See Tips</a>
+            <div class="message">
+                <img src="img/zoey.png" class="yourimage">
+                <div class="yourmessage">
+                    <div class="yourtextmessage">
+                        Here's your feedback: <br><br>
+                        <a class="btn btn-positive">View Feedback</a>
+                    </div>
                 </div>
             </div>
 
  <script type="text/javascript">
-      function remove(){
-          var tips = document.getElementById("tips");
-          var content = document.getElementById("messages");
-          var tipsbutton = document.createElement("a");
-          tipsbutton.className = "white bodyfont pull-right";
-          tipsbutton.href = "#tipsmodal"
-          tipsbutton.innerHTML = "Tips";
-          var navbar = document.getElementById("navbar");
-          navbar.appendChild(tipsbutton);
-          content.removeChild(tips);
-      }
       var messages = []
       function render() {
         messages.map(({from, msg}) => {          

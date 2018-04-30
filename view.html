@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Camera</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+    <style>
+        #container {
+            background-color: lightgrey;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 50px;
+        }
+        .video {
+            position:absolute;
+            top: 44px;
+            background-color: grey;
+            width: 100%;
+            align-content: center;
+        }
+        #comment {
+            position: absolute;
+            top: 310px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="bar bar-nav darkblue headfont">
+            <h1 class="title white">Alex's Practice Video</h1>
+        </div>
+    </header>
+    <div id="tipsmodal" class="modal">
+            <header class="bar bar-nav darkblue">
+                <h1 class="title white headfont">Tips</h1>
+                <a class="white icon icon-close pull-right" href="#tipsmodal"></a>
+            </header>
+            <div class="content blue">
+                <div class="container">
+                <div class="text white">
+                    <h3 class="headfont">Giving Feedback</h3>
+                    <h5 class="headfont">BE KIND</h5>
+                    <p class="bodyfont white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5 class="headfont">DON'T BE SELFISH</h5>
+                    <p class="bodyfont white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5 class="headfont">BE CONSTRUCTIVE</h5>
+                    <p class="bodyfont white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h3 class="headfont"><br>Areas for Feedback</h3>
+                    <p class="bodyfont white">Alex has would love feedback on enunciation, volume, and pacing. <br> Here are some tips you can give him: </p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="content bodyfont" id="container">
+        <div class="video">
+            <div class="loader"></div>
+        </div>
+        <div class="content" id="comment">
+        <div class="comments">
+            <div class="tips fill" id="tips">
+                <button class="icon icon-close pull-right" onclick="remove()"></button>
+                <div class="text bodyfont">
+                    <h5>Need help giving feedback?</h5>
+                    <a class="btn btn-positive" href="#tipsmodal">See Tips</a>
+                </div>
+            </div>
+            <h5>Timestamps:</h5>
+            <a class="btn btn-primary">Mark Timestamp</a><br>
+            <h5>Notes:</h5>
+            <form action="alexnewpractice.html">
+                <textarea rows="7" placeholder="Take notes here"></textarea>
+                <input type="submit" class="btn btn-positive btn-block" href="#" value="Submit Feedback">
+                <br>
+            </form>
+        </div>
+        </div>
+    </div>
+</body>
