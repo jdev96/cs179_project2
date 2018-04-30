@@ -446,12 +446,12 @@ p {
 .btn-link {
   padding-top: 6px;
   padding-bottom: 6px;
-  color: #428bca;
+  color: white;
   background-color: transparent;
   border: 0;
 }
 .btn-link:active, .btn-link.active {
-  color: #3071a9;
+  color: white;
   background-color: transparent;
 }
 
@@ -541,8 +541,6 @@ input[type="button"] {
 
 .bar-nav {
   top: 0;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -616,12 +614,13 @@ input[type="button"] {
   top: 0;
   padding: 0;
   font-size: 16px;
+  font-family: 'Comfortaa', cursive;
   line-height: 44px;
-  color: #428bca;
+  color: white;
   border: 0;
 }
 .bar .btn-link:active, .bar .btn-link.active {
-  color: #3071a9;
+  color: white;
 }
 
 .bar .btn-block {
@@ -1570,13 +1569,13 @@ select {
 }
 
 .loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  position: relative;
   z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #3498db;
@@ -1768,4 +1767,75 @@ iframe {
 
 .bodyfont {
   font-family: 'Open Sans', sans-serif;
+}
+
+.radiocontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radiocontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radiocheckmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radiocontainer:hover input ~ .radiocheckmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiocontainer input:checked ~ .radiocheckmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radiocheckmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radiocontainer input:checked ~ .radiocheckmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radiocontainer .radiocheckmark:after {
+ top: 9px;
+left: 9px;
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background: white;
+}
+
+.comments {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  width: 100%;
 }
