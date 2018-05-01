@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Student Homepage</title>
+    <title>Messages</title>
 
     <!-- Sets initial viewport load and disables zooming  -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -13,6 +13,8 @@
 
     <!-- Include the compiled Ratchet CSS -->
     <link href="ratchet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
 
     <!-- Include the compiled Ratchet JS -->
     <script src="ratchet.js"></script>
@@ -20,42 +22,34 @@
   </head>
 
   <body>
-    <header class="bar bar-nav">
-        <h1 class="title">Messages</h1>
+    <header class="bar bar-nav darkblue">
+        <h1 class="title white headfont">Messages</h1>
     </header>
-    <header class="bar bar-standard bar-header-secondary">
+    <header class="bar bar-standard bar-header-secondary darkblue">
         <form>
-            <span class="icon icon-search pull-left"></span>
+            <span class="white icon icon-search pull-left"></span>
             <input type="search" placeholder="Search messages">
-            <a class="icon icon-compose pull-right" href="#"></a>
+            <a class="white icon icon-compose pull-right" href="#"></a>
         </form>
     </header>
-    <header class="bar bar-tab">
+    <header class="bar bar-tab darkblue">
         <a class="tab-item active" href="chat.html">
             <img src="img/comments.png" class="icon">
-            <span class="tab-label">Messages</span>
         </a>
-        <a class="tab-item" href="newindex.html">
+        <a class="tab-item" href="newnewindex.html">
             <img src="img/home.png" class="icon">
-            <span class="tab-label">Home</span>
         </a>          
         <a class="tab-item" href="setting.html">
             <img src="img/gear.png" class="icon">
-            <span class="tab-label">Settings</span>
         </a>
     </header>
 
-    <div class="content">
-        <a href="messages.html" ><ul class="table-view">
-            <li class="table-view-cell contact">Justin</li>
-        </ul> </a>
+    <div class="content blue">
+        <ul class="table-view bodyfont">
+            <li class="table-view-cell"><a href="alexpractice.html">Alex</a></li>
+            <li class="table-view-cell contact"><a href="practicemessages.html">Justin</a></li>
+
+        </ul> 
     </div>
 
-    <script>
-        [].map.call(document.querySelectorAll('.contact'), elm => {
-            elm.addEventListener('click', () => {
-                location.href = 'messages.html'
-            })
-        })
-    </script>
   </body>
